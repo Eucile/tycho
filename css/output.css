@@ -20,7 +20,7 @@ body {
   margin-right: 15px;
 }
 .header .icons {
-  margin-left: 80px;
+  margin-left: 150px;
 }
 
 .flex-container {
@@ -44,6 +44,12 @@ body {
 }
 .flex-container a:hover {
   opacity: 0.5;
+}
+.flex-container .tour-box {
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: space-between;
+  width: 650px;
 }
 
 .gray {

@@ -22,7 +22,7 @@ body {
     margin-right: 15px;
   }
   .icons {
-    margin-left: 80px;
+    margin-left: 150px;
   }
 }
 
@@ -46,6 +46,12 @@ body {
     }
     a:hover {
       opacity: .5;
+    }
+    .tour-box {
+      display: flex;
+      flex-flow: row-reverse;
+      justify-content: space-between;
+      width: 650px;
     }
 }
 
