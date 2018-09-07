@@ -47,6 +47,7 @@ body {
 }
 .flex-container #tour-pic {
   margin-top: 90px;
+  margin-bottom: 30px;
 }
 .flex-container .tour-box {
   display: flex;
@@ -74,6 +75,7 @@ body {
   text-align: center;
   background-color: #2F95DE;
   color: white;
+  font-size: 0.88em;
   display: flex;
   flex-flow: row wrap;
   margin: 5px;
@@ -88,6 +90,27 @@ body {
   font-size: 0.88em;
   text-transform: uppercase;
   font-family: "Hind Siliguri", sans-serif;
+}
+.flex-container .footer-contact {
+  margin-top: 70px;
+}
+.flex-container .footer-contact ul {
+  list-style: none;
+}
+.flex-container .footer-contact ul li {
+  display: inline;
+  margin-right: 70px;
+  font-family: "Hind Siliguri", sans-serif;
+  text-decoration: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+.flex-container .footer-contact ul li a {
+  text-decoration: none;
+  color: #737373;
+}
+.flex-container #tycho-dots {
+  margin-top: 40px;
 }
 
 .gray {
