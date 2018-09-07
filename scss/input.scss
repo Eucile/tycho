@@ -1,0 +1,175 @@
+$tychoGray: #e6e6e6;
+
+
+body {
+  background-color: white;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.header {
+  background-color: $tychoGray;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin: 150px auto;
+  width: 740px;
+
+  // max-width: 740px;
+  // flex-direction: column;
+  // justify-content: center;
+  // margin-right: auto;
+  // margin-left: auto;
+    .album {
+    // width: 740px;
+    }
+    .item {
+      align-items: center;
+    }
+    .spotify {
+      // margin: 0 auto;
+      margin-top: 50px;
+      width: 600px;
+      // align-self: flex-start;
+      // align-content: flex-end;
+    }
+    #out-now {
+      margin-left: 70px;
+    }
+    .links {
+      margin-left: 1em;
+    }
+    a:hover {
+      opacity: .5;
+    }
+}
+
+.gray {
+  background-color: $tychoGray;
+  height: 100px;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 1em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span:before,
+.nav-toggle-label span:after {
+  display: block;
+  background: black;
+  height: 2px;
+  width: 2em;
+  border-radius: 2px;
+  position: relative;
+}
+
+.nav-toggle-label span:before,
+.nav-toggle-label span:after {
+  content: '';
+  position: absolute;
+}
+
+.nav-toggle-label span:before {
+  bottom: 7px;
+}
+
+.nav-toggle-label span:after {
+  top: 7px;
+}
+
+
+nav {
+  position: absolute;
+  text-align: left;
+  padding-top: 10px;
+  background: rgba(0, 0, 0, .8);
+  width: 100%;
+  top: 100%;
+  left: 0;
+  display: none;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  margin-top: 1px;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  font-size: 9pt;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: darken($tychoGray, 45);
+}
+
+nav a:hover {
+  opacity: .5;
+}
+
+
+.nav-toggle:checked ~ nav {
+  display: block;
+}
+
+
+@media screen and (min-width: 800px) {
+  .nav-toggle-label {
+    display: none;
+  }
+  .header {
+    display: grid;
+    grid-template-columns: 1fr auto minmax(600px, 1fr);
+  }
+
+  .logo {
+    grid-column: 1 / 2;
+    margin-left: 10px;
+  }
+
+  nav {
+    all: unset;
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+  }
+  nav li {
+    margin-left: 3em;
+    margin-bottom: 0;
+  }
+  nav a {
+    opacity: 1;
+  }
+}
