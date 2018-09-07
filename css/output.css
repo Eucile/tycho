@@ -45,10 +45,14 @@ body {
 .flex-container a:hover {
   opacity: 0.5;
 }
+.flex-container #tour-pic {
+  margin-top: 90px;
+}
 .flex-container .tour-box {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
+  align-items: center;
   width: 650px;
 }
 .flex-container .tour-box h5 {

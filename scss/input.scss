@@ -48,10 +48,14 @@ body {
       opacity: .5;
     }
 
+    #tour-pic {
+      margin-top: 90px;
+    }
     .tour-box {
       display: flex;
       flex-flow: row;
       justify-content: space-between;
+      align-items: center;
       width: 650px;
       h5 {
         font-weight: bolder;
