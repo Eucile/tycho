@@ -47,7 +47,7 @@ body {
     a:hover {
       opacity: .5;
     }
-    
+
     .tour-box {
       display: flex;
       flex-flow: row;
@@ -62,13 +62,16 @@ body {
       }
       .bit-button {
         text-align: center;
-        line-height: 44px;
+        justify-content: center;
+        text-transform: uppercase;
+        line-height: 50px;
         font-weight: bold;
-        width: 150px;
+        width: 140px;
       }
       .bit-offers {
         text-align: center;
         background-color: #2F95DE;
+        color: white;
         display: flex;
         flex-flow:row wrap;
         margin: 5px;
@@ -79,8 +82,10 @@ body {
         flex-flow:row wrap;
         margin: 5px;
         background-color: transparent;
+        color: #2F95DE;
         font-size: 0.88em;
         text-transform: uppercase;
+        font-family: 'Hind Siliguri', sans-serif;
       }
     }
 }
@@ -234,6 +239,9 @@ nav a:hover {
   .flex-container {
     width: auto;
   .spotify {
+    width: auto;
+  }
+  .tour-box {
     width: auto;
   }
   }
