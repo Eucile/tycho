@@ -47,11 +47,41 @@ body {
     a:hover {
       opacity: .5;
     }
+    
     .tour-box {
       display: flex;
-      flex-flow: row-reverse;
+      flex-flow: row;
       justify-content: space-between;
       width: 650px;
+      h5 {
+        font-weight: bolder;
+      }
+      a {
+        text-decoration: none;
+        font-size: 8pt;
+      }
+      .bit-button {
+        text-align: center;
+        line-height: 44px;
+        font-weight: bold;
+        width: 150px;
+      }
+      .bit-offers {
+        text-align: center;
+        background-color: #2F95DE;
+        display: flex;
+        flex-flow:row wrap;
+        margin: 5px;
+      }
+      .bit-rsvp {
+        border: 1px solid #2F95DE;
+        display: flex;
+        flex-flow:row wrap;
+        margin: 5px;
+        background-color: transparent;
+        font-size: 0.88em;
+        text-transform: uppercase;
+      }
     }
 }
 

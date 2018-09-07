@@ -47,9 +47,38 @@ body {
 }
 .flex-container .tour-box {
   display: flex;
-  flex-flow: row-reverse;
+  flex-flow: row;
   justify-content: space-between;
   width: 650px;
+}
+.flex-container .tour-box h5 {
+  font-weight: bolder;
+}
+.flex-container .tour-box a {
+  text-decoration: none;
+  font-size: 8pt;
+}
+.flex-container .tour-box .bit-button {
+  text-align: center;
+  line-height: 44px;
+  font-weight: bold;
+  width: 150px;
+}
+.flex-container .tour-box .bit-offers {
+  text-align: center;
+  background-color: #2F95DE;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 5px;
+}
+.flex-container .tour-box .bit-rsvp {
+  border: 1px solid #2F95DE;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 5px;
+  background-color: transparent;
+  font-size: 0.88em;
+  text-transform: uppercase;
 }
 
 .gray {
