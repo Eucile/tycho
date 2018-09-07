@@ -139,9 +139,6 @@ nav a:hover {
     grid-column: 1/2;
     margin-right: 90px;
   }
-  .header .icons {
-    display: none;
-  }
 
   nav {
     all: unset;
@@ -172,6 +169,11 @@ nav a:hover {
   }
   .flex-container .spotify {
     width: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  .icons {
+    display: none;
   }
 }
 

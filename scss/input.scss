@@ -143,9 +143,6 @@ nav a:hover {
       grid-column: 1 / 2;
       margin-right: 90px;
     }
-    .icons {
-    display: none;
-    }
   }
 
   nav {
@@ -176,5 +173,11 @@ nav a:hover {
   .spotify {
     width: auto;
   }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .icons {
+  display: none;
   }
 }
