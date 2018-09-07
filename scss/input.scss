@@ -19,10 +19,11 @@ body {
 .flex-container {
   display: flex;
   align-items: center;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
   justify-content: center;
-  margin: 150px auto;
-  width: 740px;
+  overflow: auto;
+  margin: 120px auto;
+  width: 600px;
 
   // max-width: 740px;
   // flex-direction: column;
@@ -30,17 +31,14 @@ body {
   // margin-right: auto;
   // margin-left: auto;
     .album {
-    // width: 740px;
+
     }
     .item {
-      align-items: center;
+      // align-items: stretch;
     }
     .spotify {
-      // margin: 0 auto;
       margin-top: 50px;
       width: 600px;
-      // align-self: flex-start;
-      // align-content: flex-end;
     }
     #out-now {
       margin-left: 70px;
@@ -171,5 +169,14 @@ nav a:hover {
   }
   nav a {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .flex-container {
+    width: auto;
+  .spotify {
+    width: auto;
+  }
   }
 }

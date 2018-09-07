@@ -16,13 +16,11 @@ body {
 .flex-container {
   display: flex;
   align-items: center;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
   justify-content: center;
-  margin: 150px auto;
-  width: 740px;
-}
-.flex-container .item {
-  align-items: center;
+  overflow: auto;
+  margin: 120px auto;
+  width: 600px;
 }
 .flex-container .spotify {
   margin-top: 50px;
@@ -157,6 +155,14 @@ nav a:hover {
 
   nav a {
     opacity: 1;
+  }
+}
+@media screen and (max-width: 600px) {
+  .flex-container {
+    width: auto;
+  }
+  .flex-container .spotify {
+    width: auto;
   }
 }
 
