@@ -23,7 +23,7 @@ This project imitates the general layout and responsive design of the band's web
 
 ## Setup
 
-Clone this repository or open in gh-pages. It can be found at ...
+Clone this repository or open in gh-pages. It can be found at [GitHub Pages](https://eucile.github.io/tycho/)
 
 ## Technologies Used
 
