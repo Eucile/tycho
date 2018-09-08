@@ -9,17 +9,17 @@
 This project imitates the general layout and responsive design of the band's website, using a combination of flexbox, scss, spotify iframes, and a clickable line menu manipulated with pseudo elements to collapse and display block elements. No javaScript required.
 
 
-## Screenshots of Original site:
-
-![alt text](img/ss1.png)
-![alt text](img/ss3.png)
-
 ## Screenshots of my working mock-up:
 
-![alt text](img/ss6.png)
+![alt text](img/ss7.png)
 ![alt text](img/ss5.png)
 ![alt text](img/ss4.png)
 ![alt text](img/ss2.png)
+
+## Screenshots of original site:
+
+![alt text](img/ss1.png)
+![alt text](img/ss8.png)
 
 
 ## Setup
