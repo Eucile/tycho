@@ -12,10 +12,13 @@ This project imitates the general layout and responsive design of the band's web
 ## Screenshots of Original site:
 
 ![alt text](img/ss1.png)
+![alt text](img/ss3.png)
 
 ## Screenshots of my working mock-up:
 
-
+![alt text](img/ss5.png)
+![alt text](img/ss4.png)
+![alt text](img/ss2.png)
 
 
 ## Setup
