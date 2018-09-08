@@ -15,12 +15,15 @@ body {
 }
 .header i {
   font-size: 25px;
-  color: gray;
+  color: #555555;
   margin-top: 15px;
-  margin-right: 10px;
+  margin-right: 12px;
 }
 .header .icons {
-  margin-right: 50px;
+  margin-right: 40px;
+}
+.header .icons i:hover {
+  opacity: 0.5;
 }
 .header img {
   margin-bottom: 20px;
@@ -102,7 +105,7 @@ body {
 }
 .flex-container .footer-contact ul li {
   display: inline;
-  margin-right: 70px;
+  margin-right: 50px;
   font-family: "Hind Siliguri", sans-serif;
   text-decoration: none;
   font-size: 0.9rem;
@@ -173,7 +176,7 @@ nav {
 }
 nav ul {
   margin: 0;
-  margin-left: 180px;
+  margin-left: 175px;
   margin-bottom: 30px;
   padding: 0;
   list-style: none;
@@ -238,6 +241,15 @@ nav a:hover {
     opacity: 1;
   }
 }
+@media screen and (max-width: 800px) {
+  .icons {
+    display: none;
+  }
+
+  .footer-contact {
+    width: auto;
+  }
+}
 @media screen and (max-width: 650px) {
   .flex-container {
     width: auto;
@@ -249,8 +261,8 @@ nav a:hover {
     width: auto;
   }
 }
-@media screen and (max-width: 800px) {
-  .icons {
+@media screen and (max-width: 500px) {
+  .footer-contact {
     display: none;
   }
 }
