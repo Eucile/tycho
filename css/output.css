@@ -15,9 +15,9 @@ body {
 }
 .header i {
   font-size: 25px;
-  color: gray;
+  color: #676767;
   margin-top: 26px;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 .header .icons {
   margin-right: 50px;
