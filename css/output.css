@@ -8,22 +8,33 @@ body {
   text-align: center;
   position: fixed;
   width: 100%;
-  height: 80px;
+  height: 60px;
   z-index: 999;
   top: 0;
   left: 0;
 }
 .header i {
   font-size: 25px;
+<<<<<<< HEAD
   color: #676767;
   margin-top: 26px;
   margin-right: 15px;
+=======
+  color: gray;
+  margin-top: 15px;
+  margin-right: 10px;
+>>>>>>> gh-pages
 }
 .header .icons {
   margin-right: 50px;
 }
+<<<<<<< HEAD
 .header .icons i:hover {
   opacity: 0.8;
+=======
+.header img {
+  margin-bottom: 20px;
+>>>>>>> gh-pages
 }
 
 .flex-container {
@@ -174,6 +185,7 @@ nav {
 nav ul {
   margin: 0;
   margin-left: 180px;
+  margin-bottom: 30px;
   padding: 0;
   list-style: none;
 }
