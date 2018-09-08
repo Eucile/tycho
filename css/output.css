@@ -22,6 +22,9 @@ body {
 .header .icons {
   margin-right: 50px;
 }
+.header .icons i:hover {
+  opacity: 0.8;
+}
 
 .flex-container {
   display: flex;
