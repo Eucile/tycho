@@ -11,7 +11,7 @@ This project imitates the general layout and responsive design of the band's web
 
 ## Screenshots of Original site:
 
-![Alt text](/img/Screen Shot 2018-09-07 at 4.06.14 PM.png?raw=true)
+![alt text](img/ss1.png)
 
 ## Screenshots of my working mock-up:
 
