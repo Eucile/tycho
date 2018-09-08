@@ -35,12 +35,12 @@ body {
   flex-flow: column wrap;
   justify-content: center;
   overflow: auto;
-  margin: 120px auto;
-  width: 650px;
+  margin: 105px auto;
+  width: 700px;
 }
 .flex-container .spotify {
   margin-top: 50px;
-  width: 650px;
+  width: 700px;
 }
 .flex-container #out-now {
   margin-left: 70px;
@@ -60,7 +60,7 @@ body {
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
-  width: 640px;
+  width: 700px;
 }
 .flex-container .tour-box h6 {
   font-size: 10px;
