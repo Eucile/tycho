@@ -60,20 +60,23 @@ body {
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
-  width: 650px;
+  width: 640px;
 }
 .flex-container .tour-box h6 {
   font-size: 10px;
   text-transform: uppercase;
   text-align: left;
+  margin: 0 10px;
   color: #455268;
 }
 .flex-container .tour-box .show {
   color: #2F95DE;
+  margin: 0 10px;
 }
 .flex-container .tour-box p {
   font-weight: bold;
   margin-top: 1px;
+  margin-left: 10px;
 }
 .flex-container .tour-box a {
   text-decoration: none;
@@ -83,7 +86,7 @@ body {
   text-align: center;
   justify-content: center;
   text-transform: uppercase;
-  line-height: 50px;
+  line-height: 44px;
   font-weight: bold;
   width: 140px;
 }
