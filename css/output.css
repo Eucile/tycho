@@ -160,8 +160,10 @@ nav {
   position: absolute;
   text-align: left;
   padding-top: 10px;
+  padding-bottom: 10px;
   background: rgba(242, 242, 242, 0.8);
   width: 100%;
+  line-height: 40px;
   top: 100%;
   left: 0;
   display: none;
