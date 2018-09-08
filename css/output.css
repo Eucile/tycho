@@ -62,8 +62,18 @@ body {
   align-items: center;
   width: 650px;
 }
-.flex-container .tour-box h5 {
-  font-weight: bolder;
+.flex-container .tour-box h6 {
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #455268;
+}
+.flex-container .tour-box .show {
+  color: #2F95DE;
+}
+.flex-container .tour-box p {
+  font-weight: bold;
+  margin-top: 1px;
 }
 .flex-container .tour-box a {
   text-decoration: none;
