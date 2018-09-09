@@ -3,20 +3,6 @@ body {
   font-family: "Hind Siliguri", sans-serif;
 }
 
-.icons-footer {
-  display: none;
-}
-.icons-footer i {
-  font-size: 25px;
-  color: #555555;
-  margin-top: 15px;
-  margin-right: 12px;
-  max-width: 100%;
-}
-.icons-footer i i:hover {
-  opacity: 0.5;
-}
-
 .header {
   background-color: #e6e6e6;
   text-align: center;
@@ -151,6 +137,19 @@ body {
 }
 .flex-container #tycho-dots {
   margin-top: 40px;
+}
+.flex-container .icons-footer {
+  display: none;
+}
+.flex-container .icons-footer i {
+  font-size: 25px;
+  color: #555555;
+  margin-top: 15px;
+  margin-right: 12px;
+  max-width: 100%;
+}
+.flex-container .icons-footer i i:hover {
+  opacity: 0.5;
 }
 
 .gray {
