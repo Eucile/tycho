@@ -19,7 +19,6 @@ body {
   left: 0;
   nav {
     margin-top: 15px;
-    // margin-left: 55px;
   }
   i {
     font-size: 25px;
@@ -130,9 +129,9 @@ body {
         text-decoration: none;
         font-size: .9rem;
         text-transform: uppercase;
-          a {
-            text-decoration: none;
-            color: darken($tychoGray, 45);
+        a {
+          text-decoration: none;
+          color: darken($tychoGray, 45);
           }
         }
       }
@@ -202,8 +201,8 @@ nav {
   display: none;
   ul {
     margin: 0;
-    // margin-left: 100px;
-    margin-bottom: 15px;
+    margin-left: 40px;
+    margin-bottom: 10px;
     padding: 0;
     list-style: none;
     hr {
@@ -230,13 +229,12 @@ nav a:hover {
   opacity: .5;
 }
 
-
 .nav-toggle:checked ~ nav {
   display: block;
   transform: scale(1, 1);
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   .nav-toggle-label {
     display: none;
   }
@@ -245,67 +243,47 @@ nav a:hover {
     padding-left: 90px;
     justify-content: space-between;
     flex-flow: column wrap;
-    // grid-template-columns: 1fr auto minmax(650px, 1fr);
-    .logo {
-      // grid-column: 1 / 2;
-      // margin-right: 90px;
-    }
   }
   nav {
     all: unset;
-    // grid-column: 2 / 3;
     display: flex;
     justify-content: flex-end;
-    // align-items: center;
     margin: 0 auto;
     ul {
       display: flex;
       justify-content: flex-end;
       margin-right: 20px;
-        li {
-          margin-left: 3em;
-          margin-bottom: 0;
-          a {
-            opacity: 1;
-          }
+      li {
+        margin-left: 15px;
+        margin-bottom: 0;
+        margin-right: 15px; //comeback
+        a {
+          opacity: 1;
+        }
       }
     }
   }
 }
 
-// @media screen and (max-width: 800px) {
-//   .footer-contact {
-//     width: auto;
-//   }
-// }
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .header {
     display: flex;
     width: 100%;
     nav {
       display: none;
     }
-    // .logo {
-    //   // width: 100%;
-    //   // margin: 0 auto; //changed
-    // }
-    // .nav-toggle-label {
-    //   display: flex;
-    //   flex-flow: column row;
-    // }
     .icons {
       display: none;
     }
   }
   .flex-container {
     width: auto;
-  .spotify {
-    width: auto;
-  }
-  .tour-box {
-    width: auto;
-  }
+    .spotify {
+      width: auto;
+    }
+    .tour-box {
+      width: auto;
+    }
   }
 }
 
