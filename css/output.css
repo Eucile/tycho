@@ -185,7 +185,9 @@ nav {
   line-height: 40px;
   top: 100%;
   left: 0;
-  display: none;
+  transform: scale(1, 0);
+  transition: transform 200ms ease-in-out;
+  transform-origin: top;
 }
 nav ul {
   margin: 0;
@@ -198,7 +200,7 @@ nav ul hr {
   margin-left: 10px;
 }
 nav ul li {
-  margin-top: 1px;
+  margin-top: 1em;
   margin-bottom: 1em;
   margin-left: 1em;
   font-size: 5pt;
@@ -209,6 +211,7 @@ nav ul li a {
   font-size: 0.9rem;
   text-transform: uppercase;
   color: #737373;
+  transition: opacity 250ms ease-in-out;
 }
 
 nav a:hover {
@@ -217,6 +220,7 @@ nav a:hover {
 
 .nav-toggle:checked ~ nav {
   display: block;
+  transform: scale(1, 1);
 }
 
 @media screen and (min-width: 800px) {
