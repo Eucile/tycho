@@ -13,7 +13,7 @@ This project imitates the general layout and responsive design of the band's web
 
 ![alt text](img/ss7.png)
 ![alt text](img/ss5.png)
-![alt text](img/ss4.png)
+![alt text](img/ss9.png)
 ![alt text](img/ss2.png)
 
 ## Screenshots of original site:

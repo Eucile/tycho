@@ -7,20 +7,27 @@ body {
   background-color: #e6e6e6;
   text-align: center;
   position: fixed;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
   width: 100%;
   height: 60px;
   z-index: 999;
   top: 0;
   left: 0;
 }
+.header nav {
+  margin-top: 15px;
+}
 .header i {
   font-size: 25px;
   color: #555555;
   margin-top: 15px;
   margin-right: 12px;
+  max-width: 100%;
 }
 .header .icons {
-  margin-right: 40px;
+  margin-right: 70px;
 }
 .header .icons i:hover {
   opacity: 0.5;
@@ -182,17 +189,17 @@ nav {
   padding-bottom: 10px;
   background: rgba(242, 242, 242, 0.8);
   width: 100%;
-  line-height: 40px;
-  top: 100%;
+  line-height: 50px;
+  top: 75%;
   left: 0;
   transform: scale(1, 0);
   transition: transform 200ms ease-in-out;
   transform-origin: top;
+  display: none;
 }
 nav ul {
   margin: 0;
-  margin-left: 175px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   padding: 0;
   list-style: none;
 }
@@ -229,21 +236,16 @@ nav a:hover {
   }
 
   .header {
-    display: grid;
+    display: flex;
     padding-left: 90px;
-    grid-template-columns: 1fr auto minmax(650px, 1fr);
+    justify-content: space-between;
+    flex-flow: column wrap;
   }
-  .header .logo {
-    grid-column: 1/2;
-    margin-right: 90px;
-  }
-
   nav {
     all: unset;
-    grid-column: 2/3;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    margin: 0 auto;
   }
   nav ul {
     display: flex;
@@ -259,15 +261,17 @@ nav a:hover {
   }
 }
 @media screen and (max-width: 800px) {
-  .icons {
+  .header {
+    display: flex;
+    width: 100%;
+  }
+  .header nav {
+    display: none;
+  }
+  .header .icons {
     display: none;
   }
 
-  .footer-contact {
-    width: auto;
-  }
-}
-@media screen and (max-width: 650px) {
   .flex-container {
     width: auto;
   }
