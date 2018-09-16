@@ -29,6 +29,7 @@ body {
 }
 .header .icons i:hover {
   opacity: 0.5;
+  transition: opacity 250ms ease-in-out;
 }
 .header img {
   margin-bottom: 20px;
@@ -54,6 +55,7 @@ body {
 }
 .flex-container a:hover {
   opacity: 0.5;
+  transition: opacity 250ms ease-in-out;
 }
 .flex-container #tour-pic {
   margin-top: 90px;
@@ -230,7 +232,6 @@ nav a:hover {
 
 .nav-toggle:checked ~ nav {
   display: block;
-  transform: scale(1, 1);
 }
 
 @media screen and (min-width: 900px) {
@@ -253,16 +254,12 @@ nav a:hover {
   }
   nav ul {
     display: flex;
-    justify-content: flex-end;
     margin-right: 20px;
   }
   nav ul li {
     margin-left: 15px;
     margin-bottom: 0;
     margin-right: 15px;
-  }
-  nav ul li a {
-    opacity: 1;
   }
 }
 @media screen and (max-width: 900px) {
