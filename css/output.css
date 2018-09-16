@@ -115,7 +115,6 @@ body {
   color: #2F95DE;
   font-size: 0.88em;
   text-transform: uppercase;
-  font-family: "Hind Siliguri", sans-serif;
 }
 .flex-container .footer-contact {
   margin-top: 70px;
@@ -126,7 +125,6 @@ body {
 .flex-container .footer-contact ul li {
   display: inline;
   margin-right: 50px;
-  font-family: "Hind Siliguri", sans-serif;
   text-decoration: none;
   font-size: 0.9rem;
   text-transform: uppercase;
