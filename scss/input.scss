@@ -1,6 +1,7 @@
 $tychoGray: #e6e6e6;
 $linkOpacity: .5;
-$LinkBlue: #2F95DE;
+$linkBlue: #2F95DE;
+$hoverTransition: opacity 250ms ease-in-out;
 
 body {
   font-family: 'Hind Siliguri', sans-serif;
@@ -78,7 +79,7 @@ body {
         color: #455268;
       }
       .show {
-        color: $LinkBlue;
+        color: $linkBlue;
         margin: 0 10px;
       }
       p {
@@ -100,7 +101,7 @@ body {
       }
       .bit-offers {
         text-align: center;
-        background-color: $LinkBlue;
+        background-color: $linkBlue;
         color: white;
         font-size: 0.88em;
         display: flex;
@@ -108,12 +109,12 @@ body {
         margin: 5px;
       }
       .bit-rsvp {
-        border: 1px solid $LinkBlue;
+        border: 1px solid $linkBlue;
         display: flex;
         flex-flow:row wrap;
         margin: 5px;
         background-color: transparent;
-        color: $LinkBlue;
+        color: $linkBlue;
         font-size: 0.88em;
         text-transform: uppercase;
       }
@@ -131,6 +132,7 @@ body {
         a {
           text-decoration: none;
           color: darken($tychoGray, 45);
+          transition: $hoverTransition;
           }
         }
       }
@@ -146,6 +148,9 @@ body {
         margin-top: 15px;
         margin-right: 12px;
         max-width: 100%;
+      }
+      a {
+        transition: $hoverTransition;
       }
     }
 }
@@ -201,9 +206,6 @@ nav {
   width: 100%;
   line-height: 50px;
   top: 75%;
-  transform: scale(1, 0);
-  transition: transform 200ms ease-in-out;
-  transform-origin: top;
   display: none;
   ul {
     margin: 0;
@@ -225,7 +227,7 @@ nav {
         font-size: .9rem;
         text-transform: uppercase;
         color: darken($tychoGray, 45);
-        transition: opacity 250ms ease-in-out;
+        transition: $hoverTransition;
       }
     }
   }
