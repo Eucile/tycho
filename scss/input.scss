@@ -161,7 +161,6 @@ body {
 .nav-toggle {
   display: none;
 }
-
 .nav-toggle-label {
   position: absolute;
   margin-left: 1em;
@@ -169,7 +168,6 @@ body {
   display: flex;
   align-items: center;
 }
-
 .nav-toggle-label span,
 .nav-toggle-label span:before,
 .nav-toggle-label span:after {
@@ -180,21 +178,17 @@ body {
   border-radius: 2px;
   position: relative;
 }
-
 .nav-toggle-label span:before,
 .nav-toggle-label span:after {
   content: '';
   position: absolute;
 }
-
 .nav-toggle-label span:before {
   bottom: 7px;
 }
-
 .nav-toggle-label span:after {
   top: 7px;
 }
-
 
 nav {
   position: absolute;
@@ -235,7 +229,6 @@ nav {
 nav a:hover {
   opacity: $linkOpacity;
 }
-
 .nav-toggle:checked ~ nav {
   display: block;
 }
@@ -260,7 +253,6 @@ nav a:hover {
       margin-right: 20px;
       li {
         margin-left: 15px;
-        margin-bottom: 0;
         margin-right: 15px;
       }
     }
